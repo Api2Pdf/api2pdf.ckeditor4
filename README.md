@@ -9,7 +9,7 @@ The plugin will add an icon to the toolbar to Save to PDF.
 ![image](https://user-images.githubusercontent.com/7950956/45063742-9ca10900-b07d-11e8-928e-1b4754a4debf.png)
 
 ***
-- [See Demo](https://www.api2pdf.com/ckeditor4-save-to-pdf-plugin/)
+- [See Demo](https://www.api2pdf.com/ckeditor-save-to-pdf-plugin/)
 - [Get Started with CKEditor4 CDN](#ckeditor4-cdn)
 - [Handlers and API Key](#handler)
 - [PHP Handler](#php)
@@ -72,7 +72,7 @@ $a2p_client = new Api2PdfLibrary('YOURAPIKEY');
 2. Copy the appropriate handler code
 - [.NET Core](https://github.com/Api2Pdf/api2pdf.ckeditor4/blob/master/handlers/DotNetExamples/AspNet.Core.Mvc/Controllers/SaveToPdfController.cs)
 - [ASP.NET MVC](https://github.com/Api2Pdf/api2pdf.ckeditor4/blob/master/handlers/DotNetExamples/AspNet.Mvc/Controllers/SaveToPdfController.cs)
-- [ASP.NET ASHX Handler](https://github.com/Api2Pdf/ckeditor4/blob/master/handlers/DotNetExamples/AspNet.WebForm/SaveToPdf.ashx.cs)
+- [ASP.NET ASHX Handler](https://github.com/Api2Pdf/api2pdf.ckeditor4/blob/master/handlers/DotNetExamples/AspNet.WebForm/SaveToPdf.ashx.cs)
 
 3. Regardless of which handler you copy, you will want to update this line of code with the API key you created at [api2pdf.com](https://portal.api2pdf.com/register)
 ```csharp

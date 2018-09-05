@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.plugins.addExternal('save-to-pdf', 'https://rawgit.com/Api2Pdf/api2pdf.ckeditor4/master/plugins/save-to-pdf/', 'plugin.js');
+    </script>
+</head>
+<body>
+    <textarea name="editor1"></textarea>
+    <script>
+        CKEDITOR.replace('editor1',
+            {
+                extraPlugins: 'save-to-pdf',
+                pdfHandler: '/savetopdf.ashx'
+            });
+    </script>
+</body>
+</html>

@@ -15,7 +15,7 @@ CKEDITOR.plugins.add( 'save-to-pdf', {
                     if(result && result.pdfUrl)
                         window.location.href = result.pdfUrl;
                     else
-                        console.log(xhr.resposneText);
+                        console.log(xhr.responseText);
                         
                     document.body.style.cursor='default';
                     }

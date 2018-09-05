@@ -6,6 +6,7 @@ Api2Pdf.com is a REST API for instantly generating PDF documents from HTML, URLs
 This plugin adds a Save to PDF functionality to CKEditor4.  It will take the HTML contents of your editor, convert it to PDF, and request the web browser to download it.
 
 The plugin will add an icon to the toolbar to Save to PDF.
+![image](https://user-images.githubusercontent.com/7950956/45063742-9ca10900-b07d-11e8-928e-1b4754a4debf.png)
 
 ***
 - [See Demo](https://www.api2pdf.com/ckeditor4-save-to-pdf-plugin/)

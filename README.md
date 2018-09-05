@@ -59,7 +59,7 @@ Whether you are using the CDN or self-hosting, you will need a server side handl
 api2pdf.php is the library code copied from https://github.com/Api2Pdf/api2pdf.php
 index.html assumes the sample was copied to /php/savetopdf.php
 
-2. In savetophp.php update the API key with the one you created at [api2pdf.com](https://portal.api2pdf.com/register)
+2. In savetopdf.php update the API key with the one you created at [api2pdf.com](https://portal.api2pdf.com/register)
 ```php
 $a2p_client = new Api2PdfLibrary('YOURAPIKEY');
 ```
